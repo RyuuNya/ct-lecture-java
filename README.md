@@ -4,5 +4,5 @@ This is a repository with my solutions to assignments from the java advanced cou
 
 ### Completed task
 | Task           | Easy | Hard |
-| -------------- | ---- | ---- |
+| -------------- | :--: | :--: |
 | File traversal | nyan |   -  |
