@@ -11,7 +11,7 @@ public class RecursiveWalk extends Walk {
     }
 
     @Override
-    public void walking(File input, FileWriter writer) throws IOException {
+    protected void walking(File input, FileWriter writer) throws IOException {
         Scanner scanner = new Scanner(input);
 
         while (scanner.hasNext()) {

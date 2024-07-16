@@ -33,7 +33,7 @@ public class Walk {
         }
     }
 
-    public void walking(File input, FileWriter writer) throws IOException {
+    protected void walking(File input, FileWriter writer) throws IOException {
         Scanner scanner = new Scanner(input);
 
         while (scanner.hasNext()) {
@@ -42,7 +42,6 @@ public class Walk {
     }
 
     public String walk(File file) throws IOException {
-        System.out.println(file.getName());
         if (file.exists() && file.canRead()) {
             FileReader reader = new FileReader(file);
 
